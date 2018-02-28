@@ -1,35 +1,35 @@
 # React Starter Kit for HA
 
-## Features
-
 ## This starter kit includes:
-- Libraries
+- Production libraries
   - [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap/)
-  - [redux]
-- Unit test examples with [Jest](https://github.com/facebook/jest) and [Enzyme](https://github.com/airbnb/enzyme)
-- Static type checking with [Flow](https://github.com/facebook/flow)
-- Style management using CSS-in-JS library, [styled-components](https://github.com/styled-components/styled-components)
-- UI component development environment using [Storybook](https://storybook.js.org/)
-- Code formatting using [Prettier](https://github.com/prettier/prettier)
+  - [redux](https://redux.js.org/)
+  - [react-router](https://github.com/ReactTraining/react-router)
+- Development libraries
+  - [Jest](https://github.com/facebook/jest)
+  - [Enzyme](https://github.com/airbnb/enzyme)
+  - [Flow](https://github.com/facebook/flow)
+  - [Storybook](https://storybook.js.org/)
+  - [Prettier](https://github.com/prettier/prettier)
 
 Sample code: https://github.com/haitlc/react-admin-demo
 
 ## Getting Started
 
-### 1. Clone Repo
+1. Clone Repo
 
 ````bash 
 git clone https://github.com/haitlc/ha-react-starter-kit.git
 cd ha-react-starter-kit
 ````
 
-### 2. Install dependencies
+2. Install dependencies
 
 ````
 yarn
 ````
 
-### 3. Start development server
+3. Start development server
 ````
 yarn start
 ````
@@ -58,7 +58,7 @@ yarn test --coverage
 The format configuration is in `/.prettierrc`.
 You may need to install this [Visual Studio Code plugin](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) first, and press `Alt+Shift+F` to format the code.
 
-### Production Build
+## Production Build
 
 Webpack will be used for packing the production build
 
