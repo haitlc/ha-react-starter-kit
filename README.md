@@ -18,18 +18,32 @@ Sample code: https://github.com/haitlc/react-admin-demo
 
 1. Clone Repo
 
-````bash 
+```sh 
 git clone https://github.com/haitlc/ha-react-starter-kit.git
 cd ha-react-starter-kit
-````
+```
 
-2. Install dependencies
+2. Remove git history and start a brand new repository:
+
+Mac
+```sh
+rm -rf .git
+git init
+```
+
+Windows
+```sh
+rd /s /q .git
+git init
+```
+
+3. Install dependencies
 
 ````
 yarn
 ````
 
-3. Start development server
+4. Start development server
 ````
 yarn start
 ````
